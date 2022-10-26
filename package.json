@@ -1,10 +1,15 @@
 {
   "scripts": {
-    "demo": "ts-node hello.ts"
+    "start": "ts-node hello.ts"
   },
   "devDependencies": {
     "@types/node": "13.7.7",
     "ts-node": "8.6.2",
     "typescript": "3.8.3"
+  },
+  "dependencies": {
+    "@sentry/core": "^7.16.0",
+    "@sentry/node": "^7.16.0",
+    "@sentry/types": "^7.16.0"
   }
 }

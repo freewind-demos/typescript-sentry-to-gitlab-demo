@@ -1,18 +1,11 @@
-TypeScript Hello World Demo
+TypeScript Sentry to Gitlab Demo
 ===========================
+
+gitlab可以开启error tracking， 作为sentry的后端。
+
+只需要拿到它生成的dsn给sentry即可。
 
 ```
 npm install
-npm run demo
+npm start
 ```
-
-Note:
-
-`esModuleInterop` is recommended to set to `true`,
-since we can have consistent importing syntax with babel,
-always use:
-
-```
-import some from 'some'
-```
-
